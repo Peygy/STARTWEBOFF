@@ -1,0 +1,62 @@
+body
+{
+    /*background: url(1.jpg) no-repeat;
+    background-size: 100%;*/
+}
+.Heading
+{
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-family: 'Inika', serif;
+    font-weight: bold;
+}
+.Head2 /* Для заголовка фильмов*/
+{
+    font-family: 'Inika', serif;
+    margin: 18% 1.5% 10px 0;
+    text-align: right;
+}
+.Head3 /* Для заголовка камео*/
+{
+    font-family: 'Inika', serif;
+    margin: 18% 0 10px 1.5%;
+    text-align: left;
+}
+.Stan
+{
+    margin: 45px 0 15px 0;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Marvel', sans-serif;
+    font-size: 450%;
+}
+hr
+{
+    margin: 0 1.5% 0 76%;
+}
+p
+{
+    text-align: center;
+    margin: 0 32% 0 32%;
+    font-family: 'Assistant', sans-serif;
+}
+.MovieP
+{
+    font-size: 120%;
+    font-family: 'Assistant', sans-serif;
+    line-height: 47px;
+    margin: 0 1.5% 0 0;
+    text-align: right;
+}
+.CameoP
+{
+    font-size: 120%;
+    line-height: 47px;
+    margin: 0 0 0 1.5%;
+    font-family: 'Assistant', sans-serif;
+    text-align: left;
+}
+.Stick
+{
+    margin: 0 94% 0 0;
+}
