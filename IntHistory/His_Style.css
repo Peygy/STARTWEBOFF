@@ -1,14 +1,15 @@
 .redLine
 {
-    text-indent: 20px;
+    text-indent: 1.25em;
 }
 .img
 {
     position: fixed;
+    margin-left: -35px;
 }
 body
 {
-    margin: 15% 30% 10% 30%;
+    margin: 20% 30% 10% 30%;
 }
 h1
 {
@@ -22,7 +23,7 @@ h3
 }
 p
 {
-    line-height: 23px;
+    line-height: 1.4375em;
     text-align: justify;
     font-family: 'PT Serif', serif;
 }
