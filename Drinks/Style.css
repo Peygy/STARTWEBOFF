@@ -1,0 +1,11 @@
+.lightGreenColor
+{
+    display: block;
+    background-color: #c8df47;
+    font-family: 'Comfortaa', cursive;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    margin: 0;
+}
