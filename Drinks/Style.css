@@ -3,9 +3,60 @@
     display: block;
     background-color: #c8df47;
     font-family: 'Comfortaa', cursive;
-    background-size: 100%;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    height: 5%;
+    padding-right: 50%;
+    padding-left: 36.9%;
+    position: fixed;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+h2
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 200%;
+    color: rgb(21, 129, 148);
+    margin: 20px 0 20px 27%;
+}
+img
+{
+    display: inline-block;
+    margin: 5% 45% 0 33%;
+}
+p
+{
+    font-family: 'Comfortaa', cursive;
+    display: inline-block;
+    margin: 0 27% 0 27%;
+}
+hr
+{
+    color: gray;
+    margin: 20px 25% 30px 25%;
+}
+.forPinoAndGlint
+{
+    margin: 2% 45% 0 33%;
+}
+.Welcome
+{
+    margin-bottom: 95px;
+}
+.Ending
+{
+    display: block;
+    background-color: #c8df47;
+    font-family: 'Amatic SC', cursive;
     color: white;
     text-align: center;
     font-size: 80%;
     margin: 0;
+    height: 4em;
+    line-height: 4em;
+    padding:0;
 }
