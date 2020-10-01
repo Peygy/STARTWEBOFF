@@ -3,49 +3,81 @@ body
     font-family: 'Lora', serif;
     font-weight: 100;
     margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "header header"
+        "table1 table2"
+        "footer footer";
 }
 h1
 {
     font-weight: 100;
 }
-.heading
+.EndText
 {
     display: block;
-    position: absolute;
-    text-align: center;
-    width: 100%;
+    font-size: 1.5em;
+    padding: 1.5em;
 }
 p
 {
     margin-bottom: 2em;
 }
+.heading
+{
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    
+}
+.p1
+{
+    margin-bottom: 0;
+}
 .firstTable
 {
+    margin-top: 3.5em;
     padding: 2.4em;
-    border: 2px solid #000;
-    border-right: 1px solid #000;
+    border: 1px solid #000;
+    border-right: 0.1px solid #000;
+    border-left: 0 solid #000;
     font-size: 1.5em;
     text-align: left;
     line-height: 1.7em;
+    background-color: lightgray;
 }
 .secondTable
 {
+    margin-top: 3.5em;
     padding: 2.4em;
-    border-left: 1px solid #000;
-    border: 2px solid #000;
+    border-left: 0.1px solid #000;
+    border: 1px solid #000;
+    border-right: 0 solid #000;
     font-size: 1.5em;
     text-align: left;
     line-height: 1.7em;
-}
-.grids
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     background-color: lightgray;
 }
 .ending
 {
-    display: block;
-    text-align: center;
+    text-align: left;
     width: 100%;
+}
+#pageHead
+{
+    grid-area: header;
+}
+#table1
+{
+    grid-area: table1;
+}
+#table2
+{
+    grid-area: table2;
+}
+#footer
+{
+    grid-area: footer;
 }
