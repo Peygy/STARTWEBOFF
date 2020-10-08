@@ -30,7 +30,7 @@ p
     position: fixed;
     text-align: center;
     width: 100%;
-    
+    border-bottom: 0.1px solid #000;
 }
 .p1
 {
@@ -64,20 +64,4 @@ p
 {
     text-align: left;
     width: 100%;
-}
-#pageHead
-{
-    grid-area: header;
-}
-#table1
-{
-    grid-area: table1;
-}
-#table2
-{
-    grid-area: table2;
-}
-#footer
-{
-    grid-area: footer;
 }
