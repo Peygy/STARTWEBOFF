@@ -1,7 +1,13 @@
+html
+{
+    background: rgba(39, 39, 39, 0.993);
+    margin-top: 20%;
+}
 body
 {
-    margin: 21% 38.5% 21% 40%;
-    background: rgba(39, 39, 39, 0.993);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 p
 {
@@ -9,12 +15,13 @@ p
 }
 .Card-main
 {
+    height: 14rem;
     display: block;
     max-width: 100%;
     color: whitesmoke;
     background-color: rgb(82, 82, 82);
-    border-radius: 21px;
-    padding: 30px;
+    border-radius: 23px;
+    padding: 25px;
 }
 .Top-words
 {
@@ -22,49 +29,90 @@ p
     text-align: left; 
     font-size: 1em;
 }
+.Top-words-multiverse
+{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.Top-words-Bank
+{
+    font-family: 'Open Sans', sans-serif;
+}
 .Chip
 {
     background-color:rgb(255, 216, 87);
     border-radius: 8px;
-    margin: 10px 71% 0 33px;
+    margin: 13px 76% 0 33px;
     display: grid;
     grid-template-columns: 14px 28px 14px;
     grid-template-rows: 10px 20px 10px;
-    border: 1px solid black;
+}
+.Chip-Grid-main
+{
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+.Chip-Grid-right-left
+{
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.Chip-Grid-top-bot
+{
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
 }
 .Number
 {
     display: block;
-    word-spacing: 5px;
+    word-spacing: 10px;
     font-size: 1.8em;
-    margin: 10px 0 20px 30px;
+    margin: 10px 0 17px 30px;
+    font-family: 'Libre Franklin', sans-serif;
 }
 .Valid-Thru
 {
-    padding-right: 7px;
-    margin-left: 39%;
-    font-size: 0.6em;
-    line-height: 0.4em;
     display: inline-block;
+    padding-right: 7px;
+    margin-left: 40%;
+    font-size: 0.6em;
+    line-height: 0.4em; 
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .Date
 {
     display: inline-block;
     font-size: 1.3em;
+    font-family: 'Libre Franklin', sans-serif;
 }
 .round-orange
 {
-    padding: 10px;
-    background-color: rgba(182, 116, 69, 0.986);
     z-index: 1;
+    position: absolute;
+    padding: 23px;
+    background-color: rgba(182, 116, 69, 0.986);  
     border-radius: 50%;
     display: inline-block;
+    margin-left: 80px;
 }
 .round-red
 {
-    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    padding: 23px;
     border-radius: 50%;
     display: inline-block;
-    background-color:rgba(255, 0, 0, 0.7);
-    z-index: 2;
+    background-color:rgba(255, 0, 0, 0.55);
+    margin-left: 55px;
+}
+.mastercard
+{
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 78%;
+}
+.name-person
+{
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    margin: 0 10px 0 15px;
 }
