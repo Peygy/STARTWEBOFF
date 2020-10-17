@@ -7,22 +7,18 @@
     text-align: center;
     font-size: 80%;
     width: 100%;
-    position: fixed;
+    padding: 5px 0 5px 0;
+    position: relative;
 }
 body
 {
     margin: -5px;
 }
-.mainPart
-{   
-    font-size: 110%;
-    margin: 0 25% 0 25%;
-}
 .image
 {
     display: inline-block;
     margin: 0 45% 0 16%;
-    padding: 15% 0 0 0;
+    padding: 5% 0 0 0;
 }
 .second-heading
 {
@@ -39,7 +35,7 @@ body
 hr
 {
     color: gray;
-    margin: 20px 0 30px 0;
+    margin: 23px;
 }
 .forPinoAndGlint
 {
@@ -50,7 +46,7 @@ hr
 {
     font-family: 'Comfortaa', cursive;
     display: block;
-    margin: 0 4% 95px 4%;
+    margin: 0 4% 30px 4%;
 }
 .Ending
 {
@@ -61,4 +57,10 @@ hr
     text-align: center;
     font-size: 200%;
     width: 100%;
+}
+.Head-border
+{
+    border: 2px solid #c8df47;
+    margin: 10px 25% 10px 25%;
+    font-size: 110%;
 }

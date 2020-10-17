@@ -1,0 +1,19 @@
+.main-block
+{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 25px;
+    font-style: oblique;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1em;
+}
+h4
+{
+    display: inline;
+    font-family: 'Rubik', sans-serif;
+}
+div
+{
+    line-height: 45px;
+}
